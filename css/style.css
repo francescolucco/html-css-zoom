@@ -96,11 +96,17 @@ footer{
 }
 
 
-.footer-left ul li{
+.footer-left{
   width: 20%;
-  list-style: none;
-  /* text-decoration: none; */
-  /* display: inline-block; */
 }
-{}
+.footer-left ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-left ul li{
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+}
 {}
