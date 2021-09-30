@@ -97,11 +97,10 @@ footer{
 
 
 .footer-left ul li{
-  display: flex;
-  justify-content: flex-start;
   width: 20%;
   list-style: none;
-  text-decoration: none;
+  /* text-decoration: none; */
+  /* display: inline-block; */
 }
 {}
 {}
