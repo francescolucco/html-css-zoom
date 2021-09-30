@@ -15,12 +15,6 @@
   border-radius: 5px;
   margin-left: 5px;
 }
-{}
-{}
-{}
-{}
-{}
-
 
 /* HEADER */
 header{
@@ -43,10 +37,9 @@ header{
   color: grey;
   padding-right: 5px;
 }
-{}
-{}
-{}
-
+.header-right .griglia, .header-right .full-screen{
+  cursor: pointer;
+}
 
 /* MAIN */
 main{
@@ -55,7 +48,6 @@ main{
   padding-top: 65px;
   z-index: 200;
   overflow: auto;
-
 }
 .grill{
   width: 90%;
@@ -80,11 +72,10 @@ main{
 }
 
 /* FOOTER */
-{}
 footer{
   width: 100%;
   height: 100px;
-  background-color: black;
+  background-color: rgb(30, 29, 34);
   position:fixed;
   bottom: 0;
   left: 0;
@@ -99,6 +90,15 @@ footer{
   min-width: 200px;
   max-width: 200px;
 }
+.footer-right{
+  width: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(68, 68, 68);
+  color: red;
+}
 .footer-center{
   width: 50%;
   min-width: 850px;
@@ -109,10 +109,11 @@ footer{
   justify-content: space-around;
   align-items: center;
 }
-.footer-left ul li, .footer-center ul li{
+.footer-left ul li, .footer-center ul li, .footer-right{
   list-style: none;
   text-decoration: none;
   text-align: center;
+  cursor: pointer;
 }
 footer ul li i{
   font-size: 25px;
@@ -122,4 +123,7 @@ footer ul li p{
 }
 .fa-angle-up{
   font-size: 10px;
+}
+.fa-share-from-square{
+  color: lime;
 }
